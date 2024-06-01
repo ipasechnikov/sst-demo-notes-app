@@ -1,10 +1,8 @@
+import dynamoDb from "@notes/core/dynamodb";
 import handler from "@notes/core/handler";
 import { APIGatewayProxyEvent } from "aws-lambda";
-import AWS from "aws-sdk";
 import { Table } from "sst/node/table";
 import * as uuid from "uuid";
-
-const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 export const main = handler(async (event: APIGatewayProxyEvent) => {
   let data = {
