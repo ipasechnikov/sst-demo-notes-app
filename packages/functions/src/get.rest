@@ -1,0 +1,1 @@
+GET https://mcjnqtt9fe.execute-api.us-east-1.amazonaws.com/notes/59005fa0-1ff5-11ef-b745-1720e191c98b HTTP/1.1
